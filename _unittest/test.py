@@ -30,9 +30,14 @@ class TestAdd(unittest.TestCase):
         j = Count(2, 3)
         self.assertEqual(j.add(), 5, "wrong calculation")
 
-    #The `tearDown()` method corresponds to `setUp()` and is used to test what happens after the use case.
+    # The `tearDown()` method corresponds to `setUp()` and is used to test what happens after the use case.
     def tearDown(self):
         print("test end")
+
+
+# discover方法
+# test_dir = './test_case'
+# discover = unittest.defaultTestLoader.discover(test_dir, pattern='test*.py')
 
 
 if __name__ == "__main__":
@@ -42,3 +47,11 @@ if __name__ == "__main__":
     # run test runner
     runner = unittest.TextTestRunner()
     runner.run(suite)
+    # discover method
+    # test_dir = './test_case'
+    # discover = unittest.defaultTestLoader.discover(test_dir, pattern='test*.py')
+
+    # unittest.skip(reason)
+    # unittest.skipIf(condition, reason)
+    # unittest.skipUnless(condition, reason)
+    # unittest.expectedFailure()
