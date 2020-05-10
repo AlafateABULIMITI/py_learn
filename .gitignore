@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 .vscode
 .history
-
+**/.DS_Store
