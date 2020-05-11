@@ -3,7 +3,7 @@
 `abs(x)`: Return the absolute value of a number.
 
 ```python
->> abs(-1)
+>>> abs(-1)
 1
 ```
 
@@ -17,9 +17,9 @@ def all(iterable):
             return False
     return True
 
->> all([1, 2, 3, 4])
+>>> all([1, 2, 3, 4])
 True
->> all([1, -2, 3, 4])
+>>> all([1, -2, 3, 4])
 False
 ```
 
@@ -33,8 +33,28 @@ def any(iterable):
             return True
     return False
 
->> any([1, -2, -3, -4])
+>>> any([1, -2, -3, -4])
 True
->> any([-1, -2, -3, -4])
+>>> any([-1, -2, -3, -4])
 False
+```
+
+`bin(x)`: Convert an integer number to a binary string prefixed with “0b”.
+
+```python
+>>> bin(3)
+'0b11'
+>>> bin(-10)
+'-0b1010
+```
+
+`callable(object)`: Return `True` if the object argument appears callable, `False` if not.
+
+`chr(i)`: Return the string representing a character whose Unicode code point is the integer `i`.
+
+```python
+>>> chr(97)
+a
+>>> chr(8364)
+€
 ```
