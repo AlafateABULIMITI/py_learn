@@ -87,6 +87,6 @@ print(newlist)
 
 `class frozenset([iterable])`: immutable set.
 
-`getattr(object, name[, default])`:Returns the value of the object naming attribute.
+`getattr(object, name[, default])`: Returns the value of the object naming attribute.
 
-`globals()`:Returns a dictionary of global variables.
+`globals()`: Returns a dictionary of global variables.
