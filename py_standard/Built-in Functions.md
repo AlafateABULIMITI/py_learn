@@ -85,3 +85,8 @@ print(newlist)
 
 `class float([x])`: Return a floating point number constructed from a number or string x.
 
+`class frozenset([iterable])`: immutable set.
+
+`getattr(object, name[, default])`:Returns the value of the object naming attribute.
+
+`globals()`:Returns a dictionary of global variables.
