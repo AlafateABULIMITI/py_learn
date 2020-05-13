@@ -91,8 +91,33 @@ print(newlist)
 
 `globals()`: Returns a dictionary of global variables.
 
+`hash()`: hash() is used to get the hash value of an object (string or value, etc.).
 
+```python
+>>>hash('test')
+2314058222102390712
+>>> hash(1)
+1
+>>> hash(str([1,2,3]))
+1335416675971793195
+>>> hash(str(sorted({'1':1})))
+7666464346782421378
+>>>
+```
 
+`hex(x)`: Convert integers to lowercase hexadecimal strings prefixed with "0x".
 
+```python
+>>> hex(255)
+'0xff'
+>>> hex(-42)
+'-0x2a'
+```
 
+`id(object)`: Returns the object's "identified value". This value is an integer that is guaranteed to be unique and constant during the life of this object. Two objects whose lifetimes do not overlap may have the same `id()` value.
 
+```python
+>>> b = 1
+>>> id(b)
+140588731085608
+```
