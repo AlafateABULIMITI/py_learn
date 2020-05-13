@@ -90,3 +90,9 @@ print(newlist)
 `getattr(object, name[, default])`: Returns the value of the object naming attribute.
 
 `globals()`: Returns a dictionary of global variables.
+
+
+
+
+
+
